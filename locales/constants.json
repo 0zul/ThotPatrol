@@ -1,0 +1,23 @@
+{
+  "%author.discord.id%": "266290969974931457",
+  "%author.name%": "Sankarsan Kampa",
+  "%author.url%": "https://sankarsankampa.com",
+  "%author.username%": "k3rn31p4nic",
+  "%ThotPatrol%": "ThotPatrol",
+  "%ThotPatrol.bot.invite%": "https://discordapp.com/oauth2/authorize?client_id=267035345537728512&scope=bot&permissions=2146958463",
+  "%ThotPatrol.bot.id%": "267035345537728512",
+  "%ThotPatrol.hq.id%": "267022940967665664",
+  "%ThotPatrol.hq.name%": "ThotPatrol HQ",
+  "%ThotPatrol.hq.invite%": "https://discord.gg/fzx8fkt",
+  "%currency.name%": "ThotPatrol Currency",
+  "%currency.name_plural%": "ThotPatrol Currencies",
+  "%currency.symbol%": "BC",
+  "%github.org%": "https://github.com/TheThotPatrolBot",
+  "%patreon%": "https://patreon.com/ThotPatrolbot",
+  "%paypal%": "https://paypal.me/snkrsnkampa",
+  "%twitter%": "https://twitter.com/TheThotPatrolBot",
+  "%website%": "https://bastionbot.org",
+  "%website.i18n%": "https://i18n.ThotPatrolbot.org",
+  "%website.dev%": "https://dev.ThotPatrolbot.org",
+  "%website.docs%": "https://docs.ThotPatrolbot.org"
+}
