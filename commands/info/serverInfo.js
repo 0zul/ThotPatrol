@@ -34,11 +34,6 @@ exports.exec = async (ThotPatrol, message) => {
           inline: true
         },
         {
-          name: 'Premium',
-          value: `[${guildModel && guildModel.dataValues.premium}](https://bastionbot.org 'Premium servers & perks are coming soon™')`.toUpperCase(),
-          inline: true
-        },
-        {
           name: 'Owner',
           value: message.guild.owner.user.tag,
           inline: true

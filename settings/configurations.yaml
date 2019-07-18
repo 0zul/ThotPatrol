@@ -6,7 +6,7 @@ shardCount: 1
 # the same until the database is deleted.
 # Although, you can use the `setPrefix` command to change server speific prefix.
 prefix:
-  - "tp!"
+  - ">"
 
 # Default status of ThotPatrol.
 # Valid values are `online`, `idle`, `dnd` and `invisible`/
@@ -25,7 +25,7 @@ game:
   name:
     - "with ThotPatrol Users."
     - "with Thots on this Discord Server."
-    - "tp!help"
+    - ">help"
   # Twitch channel URL for Streaming activity.
   url: "https://twitch.tv/#"
   # Activity name rotation interval (in minutes).

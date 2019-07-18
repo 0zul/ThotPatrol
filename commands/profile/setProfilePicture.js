@@ -5,9 +5,7 @@
  */
 
 exports.exec = async (ThotPatrol, message, args) => {
-  if (ThotPatrol.methods.isPublicThotPatrol(ThotPatrol)) {
-    return ThotPatrol.emit('error', '', 'This command is temporarily disabled in the public ThotPatrol. For details, please contact [ThotPatrol Support](https://discord.gg/fzx8fkt).', message.channel);
-  }
+
 
   args = args.join(' ');
   if (!/^(https?:\/\/)((([-a-z0-9]{1,})?(-?)+[-a-z0-9]{1,})(\.))+([a-z]{1,63})\/((([a-z0-9._\-~#%])+\/)+)?([a-z0-9._\-~#%]+)\.(jpg|jpeg|gif|png|bmp)$/i.test(args)) {
