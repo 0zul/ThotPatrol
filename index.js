@@ -1,8 +1,14 @@
-/**
- * @file The starting point of ThotPatrol
- * @author Sankarsan Kampa (a.k.a k3rn31p4nic)
- * @license GPL-3.0
- */
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+console.log(Date.now() + " Ping Received");
+response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+http.get(`https://thotpatrolbot.glitch.me/`);
+}, 280000);
 
 const Tesseract = xrequire('tesseract');
 const fs = require('fs');

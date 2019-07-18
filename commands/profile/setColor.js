@@ -5,9 +5,7 @@
  */
 
 exports.exec = async (ThotPatrol, message, args) => {
-  if (ThotPatrol.methods.isPublicThotPatrol(ThotPatrol)) {
-    return ThotPatrol.emit('error', '', 'This command is temporarily disabled in the public ThotPatrol. For details, please contact [ThotPatrol Support](https://discord.gg/fzx8fkt).', message.channel);
-  }
+
 
   if (!args.color || !/^#?(?:[0-9a-f]{3}|[0-9a-f]{6})$/i.test(args.color)) {
     return ThotPatrol.emit('commandUsage', message, this.help);
